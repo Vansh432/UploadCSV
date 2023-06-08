@@ -38,6 +38,7 @@ function getRows(value) {
 //ascending  sort order-->
 function ascendSort(i) {
   tbody[0].innerHTML = "";
+  // sort the array in ascending order-->
   rowsStore.sort(function (rowA, rowB) {
     let textA = rowA.children[i].innerText;
     let textB = rowB.children[i].innerText;
@@ -62,6 +63,7 @@ function ascendSort(i) {
 //descending sort order-->
 function descendSort(i) {
   tbody[0].innerHTML = "";
+  // sort the array in descending order-->
   rowsStore.sort(function (rowA, rowB) {
     let textA = rowA.children[i].innerText;
     let textB = rowB.children[i].innerText;
